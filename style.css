@@ -2,12 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
+  /* object-fit: cover; */
   width: 100vw;
   height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ar {
+
+  width: 20vw;
+  height: 20vw;
+}
+
+img {
+  width: 20vw;
+  height: 20vw;
 }
